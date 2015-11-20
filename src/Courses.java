@@ -56,6 +56,7 @@ public class Courses {
 		this.gradeComboBox.setModel(new DefaultComboBoxModel<String>(gradeArray));
 		this.contentPane.add(this.gradeComboBox);
 		
+		//Update UI Components
 		this.contentPane.updateUI();
 	}
 }
