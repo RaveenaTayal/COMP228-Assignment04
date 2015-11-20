@@ -19,6 +19,7 @@ public class Courses {
 	//CONSTRUCTOR++++++++++++++++++++++++++++++++++++++++++++
 	public Courses(JPanel contentPane,int index) {
 		
+		//Index- No. of  course
 		this.index=index;
 		this.contentPane=contentPane;
 		this.courseNumLabel=new JLabel();
